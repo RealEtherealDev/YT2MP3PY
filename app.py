@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, flash, redirect, url_for, ses
 from pytube import YouTube
 
 app = Flask(__name__)
-app.secret_key = b'12312fsdgdfghdassdfl,hjkhjsdrtzdf'
+app.secret_key = b''
 
 
 @app.route("/")
